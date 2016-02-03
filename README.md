@@ -3,6 +3,8 @@
 
 This plugin receives imaging reports from video plugins, such as OpenCV, and performs marker detection. This initial implemention tracks one pattern, patt.hiro (located in the Data folder), and sends a tracker pose showing the position and orientation of the marker on the path /me/hands/left.
 
+![Hiro pattern](https://github.com/OSVR/OSVR-ARToolKit/blob/master/images/hiro.jpg?raw=true)
+
 # Instructions
 osvr_server_config.artoolkit.json is an example server config which takes the OpenCV plugin as input.
 

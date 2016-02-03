@@ -1,0 +1,20 @@
+{
+  "deviceVendor": "OSVR",
+  "deviceName": "OSVRARToolKit",
+  "author": "Greg Aring <greg@sensics.com>",
+  "version": 1,
+  "lastModified": "2016-01-26T14:13:49.796Z",
+   "interfaces": {
+    "tracker": {
+      "count": 1,
+      "position": true,
+      "orientation": true
+    }
+  },
+  "semantic": {
+    "left": "tracker/0"
+  },
+  "automaticAliases": {
+    "/me/hands/left": "/org_osvr_artoolkit/OSVRARToolKit/semantic/left"
+  }
+ }

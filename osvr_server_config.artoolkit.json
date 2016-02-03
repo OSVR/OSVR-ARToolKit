@@ -1,0 +1,19 @@
+/* The default config file, as used with the HDK, is fully auto-detected, so no configuration required. */
+/* See the JSON-Schema for server config or other samples to see possible options. */
+{
+	"display": "displays/OSVR_HDK_1_1.json",
+    "renderManagerConfig": "sample-configs/renderManager.direct.portrait.json",
+	"drivers": [
+    {
+      "plugin": "org_osvr_artoolkit",
+      "driver": "OSVRARToolKit",
+      "params": {
+          "name": "OSVRARToolKit",
+          "input": "/camera"
+      }
+    }
+  ],
+  "plugins": [
+    "com_osvr_VideoCapture_OpenCV" /* OpenCV Camera is a manual-load plugin, so we must explicitly list it */
+  ]
+}
